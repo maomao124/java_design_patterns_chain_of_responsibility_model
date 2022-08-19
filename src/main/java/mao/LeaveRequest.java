@@ -22,6 +22,13 @@ public class LeaveRequest
     //请假内容
     private String content;
 
+    /**
+     * Instantiates a new Leave request.
+     *
+     * @param name    the name
+     * @param num     the num
+     * @param content the content
+     */
     public LeaveRequest(String name, int num, String content)
     {
         this.name = name;
@@ -29,16 +36,31 @@ public class LeaveRequest
         this.content = content;
     }
 
+    /**
+     * Gets name.
+     *
+     * @return the name
+     */
     public String getName()
     {
         return name;
     }
 
+    /**
+     * Gets num.
+     *
+     * @return the num
+     */
     public int getNum()
     {
         return num;
     }
 
+    /**
+     * Gets content.
+     *
+     * @return the content
+     */
     public String getContent()
     {
         return content;
